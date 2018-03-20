@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+li{
+    display: flex;
+    justify-content: space-between;
+
+    width: 300px;
+}
+
+.delete-todo, .todo{
+    cursor: pointer;
+    user-select: none;
+}
+
+.todo{
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.delete-todo{
+    color: rgba(229, 4, 4,0.8);
+    font-size: 20px;
+    position: relative;
+    top: 11px;
+    font-weight: 700;
+    transition: color 0.2s ease-in;
+}
+
+.delete-todo:hover{
+    color: #840303;
+    transition: color 0.2s ease-in
+}

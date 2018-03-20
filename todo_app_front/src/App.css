@@ -1,0 +1,11 @@
+body{
+  background: #34e89e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #34e89e, #0f3443); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #34e89e, #0f3443);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
